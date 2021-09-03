@@ -41,6 +41,12 @@ The preferred way to configure the miner is the [JSON config file](https://xmrig
 
 1. Install prerequisites
 
+    Use custom 64bit Kernel from here
+    ```
+    https://github.com/kraoc/raspberry-linux
+    ```
+
+    Install depencies
     ```
     sudo apt-get install git build-essential cmake automake libtool autoconf
     ```
