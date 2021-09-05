@@ -104,4 +104,5 @@
 8. Start mining
 
     Edit */opt/xmrig/worker/config.json* to add *user* (your user hash) and *url* (of the pool you choose).
+    
     Enable xmrig.service then run it !
