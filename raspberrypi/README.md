@@ -10,7 +10,9 @@
 
     Install dependencies
     ```
-    sudo apt-get install git build-essential cmake automake libtool autoconf
+    sudo apt-get install git build-essential cmake automake libtool autoconf git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev gcc-8 g++-8
+
+
     ```
 
 2. Grab sources
@@ -43,7 +45,7 @@
     Build the app 
     ```
     cd ../build
-    cmake .. -DCMAKE_BUILD_TYPE=Release -DWITH_OPENCL=OFF -DWITH_CUDA=OFF -DXMRIG_DEPS=scripts/deps -DWITH_SSE4_1=OFF
+    cmake .. -DCMAKE_BUILD_TYPE=Release -DWITH_OPENCL=OFF -DWITH_CUDA=OFF -DXMRIG_DEPS=scripts/deps -DWITH_SSE4_1=OFF -DCMAKE_C_COMPILER=gcc-8 -DCMAKE_CXX_COMPILER=g++-8
     make -j4
     ```
 
