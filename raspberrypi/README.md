@@ -96,6 +96,7 @@
     User=root
     Group=root
     Type=simple
+    Nice=+10
     ExecStart=/opt/xmrig/worker/xmrig --config=/opt/xmrig/worker/config.json
     Restart=always
 
