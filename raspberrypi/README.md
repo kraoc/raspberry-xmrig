@@ -11,8 +11,6 @@
     Install dependencies
     ```
     sudo apt-get install git build-essential cmake automake libtool autoconf git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev gcc-8 g++-8
-
-
     ```
 
 2. Grab sources
