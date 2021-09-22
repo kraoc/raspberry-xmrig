@@ -3,7 +3,7 @@
 
 1. Prerequisites
 
-    Use custom RPi 64bit Kernel from here (raspberry subfolder)
+    Use custom RPi 64bit Kernel from here (go in *raspberry* folder)
     ```
     https://github.com/kraoc/raspberry-linux-64
     ```
