@@ -22,8 +22,8 @@
     Make a dedicated folder inside the opt path and get the sources
     ```
     cd /opt
-    mkdir -p /opt/xmrig
     git clone --depth=1 https://github.com/xmrig/xmrig
+    cd xmrig
     ```
 
 3. Refresh sources
