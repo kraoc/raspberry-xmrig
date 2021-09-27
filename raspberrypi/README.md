@@ -35,8 +35,8 @@
 
     Build dependencies
     ```
-    mkdir xmrig/build
-    cd xmrig/scripts
+    mkdir build
+    cd scripts
     ./build_deps.sh
     ```
    
